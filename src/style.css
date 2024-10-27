@@ -9,7 +9,7 @@
 }
 .main img{
 border-radius: 50%;
-width: 8%;
+width: 10%;
 height: 50px;
 }
 .main div{
@@ -17,12 +17,15 @@ width: 30%;
 height: 90px;
 margin-left: 50px;
 margin-top: -70px;
+
 }
 .main div p{
+
   margin-top: -20px;
   font-size: 13px;
 }
 .icon{
+  
 margin-left: 350px;
 width: 7%;
 font-size: 30px;
@@ -66,4 +69,27 @@ font-size: 20px;
 display: flex;
 justify-content: space-between;
 font-size: 30px;
+}
+
+
+@media screen and (max-width: 550px) {
+  .contaner{
+    width: 70%;
+  }
+  .main img{
+width: 15%;
+  }
+  .main div p{
+
+width: 160%;
+  }
+
+  .icon{
+
+margin-left: 220px;
+  }
+  .comments{  
+    margin-left: 200px;
+width: 30%;
+  }
 }
